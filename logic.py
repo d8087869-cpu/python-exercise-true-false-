@@ -12,4 +12,9 @@ has_id =True
 print(age>= 18 and has_id)
 level = 3 
 print(level >=1 and level <=5)
-
+a = 0
+b = "hello"
+c = "" 
+print(bool(a))
+print(bool(b))
+print(bool(c))
