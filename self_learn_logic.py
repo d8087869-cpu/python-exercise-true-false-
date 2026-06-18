@@ -20,3 +20,9 @@ x = True
 y = False 
 xor = (x and not y) or (not x and y)
 print(xor)
+#4 
+num = 8 
+print(num << 1 )
+print(bin(num << 1))
+print(num >> 1)
+print(bin (num >> 1)) 
