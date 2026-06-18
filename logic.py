@@ -32,3 +32,6 @@ print(username or default)
 print(True and False or True)
 print((True and False)or True)
 #becuase and is first 
+#10 
+score = 75 
+print(60 <=score <=100)
