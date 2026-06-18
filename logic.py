@@ -24,3 +24,11 @@ x = None
 y = 42 
 print(x or y) 
 # None is false so what we have left with its only or = 42 
+#8 
+username = ""
+default = "guest" 
+print(username or default)
+# 9
+print(True and False or True)
+print((True and False)or True)
+#becuase and is first 
