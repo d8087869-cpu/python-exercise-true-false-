@@ -10,3 +10,8 @@ print(bin(a))
 print(bin(b))
 print(a ^ b)
 print(bin(a ^ b))
+#2 
+a = 12 
+b = 10 
+print(a & b , bin(a & b))
+print(a | b , bin(a | b))
