@@ -12,9 +12,15 @@ has_id =True
 print(age>= 18 and has_id)
 level = 3 
 print(level >=1 and level <=5)
+#6 
 a = 0
 b = "hello"
 c = "" 
 print(bool(a))
 print(bool(b))
 print(bool(c))
+#7
+x = None
+y = 42 
+print(x or y) 
+# None is false so what we have left with its only or = 42 
