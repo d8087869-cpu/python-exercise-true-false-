@@ -15,3 +15,8 @@ a = 12
 b = 10 
 print(a & b , bin(a & b))
 print(a | b , bin(a | b))
+#3
+x = True 
+y = False 
+xor = (x and not y) or (not x and y)
+print(xor)
